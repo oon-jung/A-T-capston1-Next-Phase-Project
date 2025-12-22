@@ -5,11 +5,11 @@
 #include <Adafruit_MPU6050.h> // MPU6050 라이브러리
 
 // 1. Wi-Fi 설정
-const char* ssid = "GRlab"; // Wi-Fi 이름
-const char* password = "Indigo1!"; // Wi-Fi 비밀번호
+const char* ssid = ""; // Wi-Fi 이름
+const char* password = ""; // Wi-Fi 비밀번호
 
 // 2. OSC 통신 설정
-IPAddress outIp(192, 168, 0, 15); // OSC 데이터를 수신할 컴퓨터의 IP 주소.
+IPAddress outIp(); // OSC 데이터를 수신할 컴퓨터의 IP 주소.
 const unsigned int outPort = 8000; // 수신 포트
 const unsigned int localPort = 8888; // ESP32 송신 포트
 
