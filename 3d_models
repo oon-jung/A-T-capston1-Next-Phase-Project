@@ -1,0 +1,21 @@
+# Scene Model Files
+
+This project contains a Maya scene with three characters.
+
+## Scene Description
+- The Maya scene includes **three character models** in a single scene.
+- All characters are fully assembled within the same scene file.
+
+## Maya Scene File
+Due to file size limitations, the Maya scene file (.ma / .mb) is not included directly in this GitHub repository.
+
+🔗 Google Drive download link:
+https://drive.google.com/file/d/14sQr4yZRp5sdt95ZqJcxDSm0cnHRRe6Z/view?usp=drive_link
+
+## Texture Files
+- All texture files used in the scene are stored in the **sourceimages** directory.
+- The scene is set up assuming the default Maya project structure.
+- If textures do not load automatically, please ensure that the **sourceimages folder is correctly linked** to the Maya project.
+
+## Software
+- Autodesk Maya 2023
